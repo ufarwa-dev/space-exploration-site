@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+    background-image: url("galaxy.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+    margin: 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: #82a5ca;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+#terms {
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+#terms h3 {
+    color: #82a5ca;
+    margin: 0;
+}
